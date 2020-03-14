@@ -21,4 +21,7 @@ class Song
   def self.find_by_name
     Song.find { |song| Song.name == name }
   end
+  
+  def self.find_or_create_by_name
+  end
 end
